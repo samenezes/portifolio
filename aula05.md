@@ -1,4 +1,4 @@
-# Aula 05 Ícones no React JS, React Icons e criar página Contatos [18:50]
+# Aula 05 Ícones no React JS, React Icons e criar página Contatos
 
 ## Instalar o react-icons
 
@@ -56,7 +56,7 @@ function Contatos() {
 
                     <div className={styles.icones}>
                         
-                        <a href='mailto:edsonmaiap@gmail.com' target='_blank' rel='noopener noreferrer'>
+                        <a href='mailto:sandracastroprofessora@gmail.com' target='_blank' rel='noopener noreferrer'>
                             <GoMail className={styles.icone} />
                         </a>
 
