@@ -28,13 +28,13 @@ Criar componente Container
 
 Dentro de \src\components
 1. Crie a pasta 'Container'
-2. Dentro de Header crie os arquivos 'index.jsx' e 'Container.module.css'
+2. Dentro de Container crie os arquivos 'index.jsx' e 'Container.module.css'
 
 Criar componente Footer
 
 Dentro de \src\components
 1. Crie a pasta 'Footer'
-2. Dentro de Header crie os arquivos 'index.jsx' e 'Footer.module.css'
+2. Dentro de Footer crie os arquivos 'index.jsx' e 'Footer.module.css'
 
 ## Componente Header
 
