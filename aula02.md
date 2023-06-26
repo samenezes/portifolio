@@ -1,11 +1,13 @@
-# Aula 02 Organizar projeto, criar página Home e componentes [43:04]
+# Aula 02 Organizar projeto, criar página Home e componentes
 
 > O nosso projeto terá o seguinte modelo do figma
-> https://www.figma.com/file/qJ2Z3P3U7899IgAiovag65/portfolio?type=design&node-id=1-35&t=dbRx0ccLmY7xrepP-0
+> https://www.figma.com/community/file/1253907573035661296
 
 ## Imagens e Favicon
 
-Inicialmente, precisamos copiar 3 arquivos favicon.svg, developer-blue.svg, developer-red.svg para a pasta public
+Inicialmente, precisamos copiar 3 arquivos de imagens, lembrando que 1 um deles será a imagem de favicon.svg  para a pasta public
+Faça o download das imagens que irá usar em :
+> https://undraw.co/illustrations
 Em seguida, vamos mudar o favicon no arquivo index.html
 
 ## Organização do projeto
@@ -45,7 +47,7 @@ import styles from './Header.module.css'
 function Header() {
     return (
         <header className={styles.header}>
-            <span>edsonMaia.dev</span>
+            <span>Sandra Alves</span>
             <nav>
                 <a href="">Home</a>
                 <a href="">Sobre</a>
@@ -115,12 +117,12 @@ export default Header
 
 4. Salve as alterações (CTRL + S) e veja o resultado no Browser
 
-## Ajustes nos arquivos App.css e index.css [10:45]
+## Ajustes nos arquivos App.css e index.css 
 
 1. Abra o arquivo App.css
 2. Selecione tudo e apague
 3. Salve as alterações e feche
-4. Abra o arquivo index.css, é nosso css global [11:30]
+4. Abra o arquivo index.css, é nosso css global 
 5. Apague da linha 16 até a linha 70
 6. Apague as 2 até 8 da propriedade line-height até background-color
 7. O seletor :root ficará assim:
@@ -168,7 +170,7 @@ export default Header
 }
 ~~~
 
-## Fonte personalizada [13:30]
+## Fonte personalizada 
 
 Vamos usar a fonte 'Fira Code' do Google Fonts com os pesos 400, 500 e 600
 
@@ -183,11 +185,11 @@ Vamos usar a fonte 'Fira Code' do Google Fonts com os pesos 400, 500 e 600
 2. Salve as alterações
 3. Feche o arquivo index.html
 
-## CSS span, nav e a do Header [17:50]
-Formatação do span [17:50]
-Formatação dos links da tag a [20:30]
+## CSS span, nav e a do Header 
+Formatação do span 
+Formatação dos links da tag a 
 
-## Criar component Footer [24:13]
+## Criar component Footer 
 
 1. Abra o arquivo index.jsx do Footer
 2. Faça o seguinte código:
@@ -198,7 +200,7 @@ import styles from './Footer.module.css'
 function Footer() {
     return (
         <footer className={styles.footer}>
-            Feito com ❣️ por Edson Maia © 2023
+            Feito com ❣️ por Sandra Alves © 2023
         </footer>
     )
 }
@@ -207,7 +209,7 @@ export default Footer
 
 ~~~
 
-## CSS do Footer [25:45]
+## CSS do Footer
 
 1. Abra o arquivo Footer.module.css
 2. Faça o seguinte código:
@@ -230,7 +232,7 @@ export default Footer
 
 3. Salve as alterações
 
-## Utilizar o Footer no App.jsx [27:05]
+## Utilizar o Footer no App.jsx
 
 1. Abra o arquivo `App.jsx`
 2. Abaixo do Header digite o seguinte código:
@@ -245,17 +247,17 @@ export default Footer
 
 4. Salve as alterações e veja o resultado no Browser
 
-## Sobre o Conteúdo da página [28:00]
+## Sobre o Conteúdo da página 
 
 > Vamos fazer o conteúdo da página Home diretamente dentro de App.jsx, mas, depois iremos colocar na page Home, como um componente funcional.
 
-## Imagem da página Home [28:30]
+## Imagem da página Home 
 
 > https://undraw.co/illustrations
 
 No site unDraw você pode escolher uma ilustração, personalizar a cor de destaque, salvar a imagem no formato svg ou png.
 
-## Conteúdo da página Home [30:00]
+## Conteúdo da página Home
 
 1. Abra o arquivo `App.jsx`
 2. Abaixo do `Header` faça o seguinte código:
@@ -265,7 +267,7 @@ No site unDraw você pode escolher uma ilustração, personalizar a cor de desta
   <div className='apresentacao'>
     <p>
       Olá, sou <br/>
-      <span>Edson Maia</span> <br/>
+      <span>Sandra Alves</span> <br/>
       Dev Full Stack
     </p>
     <button className='btn btn-red'>
@@ -281,7 +283,7 @@ No site unDraw você pode escolher uma ilustração, personalizar a cor de desta
 
 3. Salve as alterações e veja o resultado no browser.
 
-## CSS do Conteúdo da página Home [34:40]
+## CSS do Conteúdo da página Home 
 
 > Por enquanto, vamos fazer a formatação destes conteúdos usando o arquivo App.css
 
@@ -336,4 +338,4 @@ No site unDraw você pode escolher uma ilustração, personalizar a cor de desta
 
 3. Salve as alterações e veja o resultado no browser.
 
-[43:04]
+
