@@ -134,4 +134,3 @@ Salve as alterações e veja o resultado no browser.
 
 > Nas próximas aulas vamos organizar a página Projetos para exibir melhor a lista de Card de projetos.
 
-Salve Devs, até a próxima aula
