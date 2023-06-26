@@ -28,15 +28,14 @@ function Sobre() {
                 <div className={styles.textos}>
                     <h2>Sobre</h2>
 
-                    <p>Sou <span>Edson Maia</span> <br />
-                    <strong>Dev Full Stack</strong> </p>
+                    <p>Sou <span>Sandra Alves</span> <br />
+                    <strong>Dev e Professora</strong> </p>
 
-                    <p>Trabalho com desenvolvimento Web desde 2000.</p>
+                    <p>Trabalho com desenvolvimento Web desde 2010.</p>
 
-                    <p>Sou apaixonado por transformar ideias em realidade digital.</p>
+                    <p>Sou apaixonada por transformar ideias em realidade digital.</p>
 
-                    <p>Especializado em criação de aplicações dinâmicas e intuitivas, <br />
-                    com foco na experiência do usuário.</p>
+                    <p>Fico muito orgulhosa em testemunhar a evolução pessoal e profissional de cada aluno</p>
                 </div>
             </div>
 
