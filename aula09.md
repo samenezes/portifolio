@@ -39,7 +39,7 @@ function Projetos() {
 
     useEffect(() => {
         const buscarRepositorios = async () => {
-            const response = await fetch('https://api.github.com/users/edsonmaia/repos')
+            const response = await fetch('https://api.github.com/users/samenezes/repos')
             const data = await response.json()
             setRepositories(data)
         }
@@ -139,13 +139,11 @@ export default Card
 
 Na requisição que fazemos para a API do Github temos acesso às linguagens que foram usadas em cada projeto, por meio da url:
 
-> https://api.github.com/repos/edsonmaia/{nome_do_repositorio}/languages
+> https://api.github.com/repos/samenezes/{nome_do_repositorio}/languages
 
 Se criarmos uma constante e armazenar as chaves delas podemos ter acesso aos nomes das linguagens:
 
 `const languages = Object.keys(data)`
 
 Mas, precisamos criar um componente que pegue essa listagem e crie o ícones correspondente.
-Isto fica como um desafio para as próximas aulas.
-
-Salve Devs, até a próxima!
+Isto fica como um desafio para você pensar e tentar desenvolver.
