@@ -113,7 +113,7 @@ export default Header
 ~~~
 
 3. Faça o import do componente Header
-`import from './components/Header'`
+`import Header from './components/Header'`
 
 4. Salve as alterações (CTRL + S) e veja o resultado no Browser
 
