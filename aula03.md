@@ -1,7 +1,4 @@
-# Aula 03 Criar Rotas, Páginas e Links no React JS [28:00]
-
-> O nosso projeto terá o seguinte modelo do figma
-> https://www.figma.com/file/qJ2Z3P3U7899IgAiovag65/portfolio?type=design&node-id=1-35&t=dbRx0ccLmY7xrepP-0
+# Aula 03 Criar Rotas, Páginas e Links no React JS
 
 ## Criar página Home
 
@@ -29,7 +26,7 @@ function Home() {
             <div className='apresentacao'>
               <p>
                 Olá, sou <br/>
-                <span>Edson Maia</span> <br/>
+                <span>Sandra Alves</span> <br/>
                 Dev Full Stack
               </p>
               <button className='btn btn-red'>
@@ -96,7 +93,7 @@ export default App
 
 > Vamos substituir as tags a pelo componente Link do react-router-dom
 
-Veja como deve fica o código do arquivo
+Veja como deve ficar o código do arquivo
 
 ~~~javascript
 import { Link } from 'react-router-dom'
@@ -106,7 +103,7 @@ function Header() {
     return (
         <header className={styles.header}>
             <Link to="/">
-                <span>edsonMaia.dev</span>
+                <span>Sandra Alves</span>
             </Link>
             <nav>
                 <Link to="/">Home</Link>
@@ -141,9 +138,9 @@ export default Header
 
 4. Salve as alterações e faça os testes no browser
 
-5. Ele perdeu a formatação CSS, mas, vamos ajustar. [24:29]
+5. Ele perdeu a formatação CSS, mas, vamos ajustar. 
 
-## Ajuste no botão Saiba mais [24:43]
+## Ajuste no botão Saiba mais 
 
 1. Abra o arquivo `App.css`
 2. No seletor .btn adicione as seguintes propriedades:
@@ -157,21 +154,3 @@ export default Header
 
 3. Salve as alterações e veja o resultado no browser.
 
-## Dicas finais
-
-1. Acesse o nosso repositório do projeto no GitHub
-https://github.com/edsonmaia/portfolio
-
-2. Acesse o layout do projeto no Figma
-https://www.figma.com/file/qJ2Z3P3U7899IgAiovag65/portfolio?type=design&node-id=1-35&t=dbRx0ccLmY7xrepP-0
-
-3. Acessem meu instagram
-https://www.instagram/professoredsonmaia
-
-4. Canal Professor Edson Maia no YouTube
-https://www.youtube.com/professoredsonmaia
-
-5. Acesse meu canal no Discord
-https://discord.gg/cHN77Mbb
-
-Salve Devs, até a próxima!
