@@ -1,4 +1,4 @@
-# Aula 06 Rotas aninhadas no React JS com o react router dom [14:36]
+# Aula 06 Rotas aninhadas no React JS com o react router dom 
 
 Vamos implementar uma funcionalidade na nossa aplicação para não repetir códigos da estrutura das páginas.
 Toda página tem Header, Container e Footer. Para não repetir podemos fazer o seguinte:
@@ -57,7 +57,7 @@ export default AppRoutes
 2. Apague os componentes Header, Container e Footer
 3. Apague os imports deles
 4. Ajuste as indentações
-5. Salve os arquivos, feche e veja o resultad no browser.
+5. Salve os arquivos, feche e veja o resultado no browser.
 
 > Veja que adicionamos no arquivo `routes.jsx` os componentes Header, Container e Footer que são comuns a todas páginas.
 > Mas, existe outra forma de fazer isto, utilizando rotas aninhadas (routes nested) do react-router-dom
@@ -93,7 +93,7 @@ export default PageBase
 
 ~~~
 
-> No vídeo crie a pasta PaginaBase e dentro do código do componente eu usei o nome PageBase.
+> criei a pasta PaginaBase e dentro do código do componente eu usei o nome PageBase.(Isso não é boa prática de programação)
 > É recomendável que o componente tenha o mesmo nome da pasta, por uma questão de padronização, para evitar problemas no import.
 > Eu sugiro que você escolha qual nome fica melhor para a pasta e o componente.
 
@@ -141,7 +141,7 @@ export default AppRoutes
 ~~~
 ## AVISOS IMPORTANTES:
 
-> Lembre-se do nome da pasta PageBase e do componente PageBase que eu criei um pouco diferente no vídeo.
+> Lembre-se do nome da pasta PageBase e do componente PageBase que eu criei um pouco diferente.
 > Mas, Você pode usar o seu padrão de nomes.
 
 > Observe que a route PageBase agora é a rota raiz, mas, o index, ou seja, a primeira é a página Home.
@@ -152,23 +152,3 @@ export default AppRoutes
 ### Link da documentação oficial do React Router Dom
 
 https://reactrouter.com/en/main/components/outlet
-
-## Dicas finais
-
-1. Acesse o nosso repositório do projeto no GitHub
-https://github.com/edsonmaia/portfolio
-
-2. Acesse o layout do projeto no Figma
-https://www.figma.com/file/qJ2Z3P3U7899IgAiovag65/portfolio?type=design&node-id=1-35&t=dbRx0ccLmY7xrepP-0
-
-3. Acessem meu instagram
-https://www.instagram/professoredsonmaia
-
-4. Canal Professor Edson Maia no YouTube
-https://www.youtube.com/professoredsonmaia
-
-5. Acesse meu canal no Discord
-https://discord.gg/cHN77Mbb
-
-Salve Devs, até a próxima!
-
