@@ -1,7 +1,4 @@
-# Aula 03 Criar componente Container e Página 404 [24:15]
-
-> O nosso projeto terá o seguinte modelo do figma
-> https://www.figma.com/file/qJ2Z3P3U7899IgAiovag65/portfolio?type=design&node-id=1-35&t=dbRx0ccLmY7xrepP-0
+# Aula 03 Criar componente Container e Página 404
 
 ## Criar componente Container
 
@@ -81,7 +78,7 @@ Vamos usar o componente Container em todas as páginas, para isto, vamos começa
     <div className="apresentacao">
         <p>
             Olá, sou <br />
-            <span>Edson Maia</span> <br />
+            <span>Sandra Alves</span> <br />
             Dev Full Stack
         </p>
         <Link to="/sobre" className="btn btn-red">
@@ -115,7 +112,7 @@ Vamos usar o componente Container em todas as páginas, para isto, vamos começa
       <div className={styles.apresentacao}>
           <p>
               Olá, sou <br />
-              <span>Edson Maia</span> <br />
+              <span>Sandra Alves</span> <br />
               Dev Full Stack
           </p>
           <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
@@ -270,25 +267,7 @@ export default Page404
 `import Page404 from './pages/Page404'`
 
 5. Salve as alterações e feche o arquivo de rotas.
-6. Para testar, no browser tente acessar uma rota que não existe, por exemplo `http://localhost:5147/teste`
+6. Para testar, no browser tente acessar uma rota que não existe, por exemplo `http://localhost:8080/teste`
 
 > Veja como aparecerá a página 404 toda vez que você acessar no seu projeto alguma rota que não existe.
 
-## Dicas finais
-
-1. Acesse o nosso repositório do projeto no GitHub
-https://github.com/edsonmaia/portfolio
-
-2. Acesse o layout do projeto no Figma
-https://www.figma.com/file/qJ2Z3P3U7899IgAiovag65/portfolio?type=design&node-id=1-35&t=dbRx0ccLmY7xrepP-0
-
-3. Acessem meu instagram
-https://www.instagram/professoredsonmaia
-
-4. Canal Professor Edson Maia no YouTube
-https://www.youtube.com/professoredsonmaia
-
-5. Acesse meu canal no Discord
-https://discord.gg/cHN77Mbb
-
-Salve Devs, até a próxima!
