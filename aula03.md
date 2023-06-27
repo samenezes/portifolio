@@ -3,7 +3,7 @@
 ## Criar página Home
 
 1. Abra o arquivo `App.jsx`
-2. Selecione da linha 8 até a 26, toda a área do fragment, recorte esse código.
+2. Selecione da linha 8 até a 26, toda a área do fragmento (return), recorte esse código e salve em um arquivo texto.
 3. Na linha 2 digite apenas `<h1>Home</h1>`
 4. Apague as duas linhas de import do Header e Footer
 5. Salve o arquivo.
@@ -19,7 +19,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 
 function Home() {
-    return {
+    return (
        <>
           <Header />
           <section className='container'>
@@ -39,8 +39,10 @@ function Home() {
           </section>
           <Footer />
         </> 
-    }
+    )
 }
+
+export default Home
 
 ~~~
 
