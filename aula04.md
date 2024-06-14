@@ -146,6 +146,8 @@ Vamos usar o componente Container em todas as páginas, para isto, vamos começa
 
 ## Utilizar o componente Container nas outras páginas
 
+1. Crie a pasta Sobre dentro de page
+2. Crie os arquivos index.jsx e o Sobre.module.css dentro da pasta Sobre
 1. Abra o arquivo index.jsx da página Sobre
 2. Mude a tag h1 para h2
 3. Recorte a linha da tag h2
