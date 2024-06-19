@@ -115,7 +115,8 @@ export default Header
 3. Faça o import do componente Header
 `import Header from './components/Header'`
 
-4. Salve as alterações (CTRL + S) e veja o resultado no Browser
+5. Verifique se o import está de acordo com a estrutura de pastas, ou seja, se você consegue visualizar a pasta components e a pasta header.
+6. Salve as alterações (CTRL + S) e veja o resultado no Browser
 
 ## Ajustes nos arquivos App.css e index.css 
 
