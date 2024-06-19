@@ -4,9 +4,10 @@
 
 1. Dentro da pasta `Sobre` crie o arquivo `Sobre.module.css`
 2. Dentro da pasta `Sobre` crie a pasta `images`
-3. Copie os arquivos de imagem para dentro dessa pasta.
-4. Abrir o arquivo `index.jsx`
-5. Faça o seguinte código:
+3. Entre no site flaticon.com ou outro de sua preferência e faça download dos seus ícones.
+4. Copie os arquivos de imagem que você baixou (fez download) para dentro desta pasta.
+5. Abrir o arquivo `index.jsx`
+6. Faça o seguinte código:
 
 ~~~javascript
 
@@ -60,7 +61,8 @@ export default Sobre
 
 ~~~
 
-6. Salve as alterações.
+7. Salve as alterações.
+8. Não se esqueça de validar o caminho dos imports : import styles from './Sobre.module.css' Verifique se você está visualizando a estrutura de pastas.
 
 ## CSS da Página Sobre
 
