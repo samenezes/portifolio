@@ -72,9 +72,9 @@ export default AppRoutes
 
 ~~~javascript
 
-import Header from 'components/Header'
-import Footer from 'components/Footer'
-import Container from 'components/Container'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import Container from '../../components/Container'
 import { Outlet } from 'react-router-dom'
 
 function PageBase() {
